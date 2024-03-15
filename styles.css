@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+/* ----------------HEADER TECH---------------------*/
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.Header-Logo a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-right-links a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header,
+.header-left-links,
+.header-right-links{
+    display: flex;
+    align-items: center;
+}
+.header{
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+.header-right-links{
+    justify-content: space-between;
+    gap: 40px;
+}
+/*------------------SECTION-ONE TECH----------------------*/
+.Hero-Main-Text{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+.Hero-Secondary-Text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.section-one,
+.garden-image,
+.left-elements{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+.section-one{
+    background-color: #1F2937;
+    justify-content: center;
+}
+.garden-image,
+.left-elements{
+    max-height: 250px;
+}
+.garden-image{
+    max-width: 480px;
+}
+.left-elements{
+    max-width: 420px;
+    margin-right: 60px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.left-elements p{
+    margin: 0px;
+}
+.sign-up-button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: 800;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
