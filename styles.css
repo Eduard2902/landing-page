@@ -1,9 +1,8 @@
 body{
-    height: 100vh;
+    height: 1500px;
     margin: 0;
     display: flex;
     flex-direction: column;
-
 }
 p{
     margin: 0;
@@ -93,6 +92,7 @@ p{
 .section-two{
     flex-direction: column;
     flex-grow:1;
+    gap: 60px;
 }
 .Information-Header-Text{
     font-size: 36px;
