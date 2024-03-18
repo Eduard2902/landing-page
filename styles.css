@@ -5,11 +5,14 @@ body{
     flex-direction: column;
 
 }
+p{
+    margin: 0;
+}
 /* ----------------HEADER TECH---------------------*/
-a{
+.header a{
     text-decoration: none;
 }
-ul{
+.header ul{
     list-style-type: none;
     padding: 0;
 }
@@ -69,16 +72,79 @@ ul{
     gap: 10px;
     flex-wrap: wrap;
 }
-.left-elements p{
-    margin: 0px;
-}
 .sign-up-button{
     color: #F9FAF8;
     background-color: #3882F6;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 18px;
     border: none;
     text-align: center;
     padding: 10px 25px;
     border-radius: 10px;
+}
+/*---------------------SECTION-TWO TECH------------------------------*/
+.section-two,
+.Information-Header-Text,
+.information-images-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-two{
+    flex-direction: column;
+    flex-grow:1;
+}
+.Information-Header-Text{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.information-images-container{
+    gap: 50px;
+}
+.image-one,
+.image-two,
+.image-three,
+.image-four{
+    width: 130px;
+    height: 130px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+.image-one-container,
+.image-two-container,
+.image-three-container,
+.image-four-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 130px;
+    text-align: center;
+}
+/*-----------------------SECTION-THREE TECH------------------------*/
+.section-three{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.quote,
+.author{
+    display: flex;
+    width: 750px;
+    color: #1F2937;
+}
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    flex-wrap: wrap;
+}
+.author{
+    font-size: 23px;
+    font-weight: 900;
+    justify-content: flex-end;
 }
